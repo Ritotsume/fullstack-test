@@ -43,12 +43,11 @@ Para ambiente que NÃO seja de produção:
 composer install
 ```
 
->editar o arquivo `.env` e inserir as informações corretas do banco de dados.
+>editar o arquivo `.env` e inserir as informações corretas do banco de dados. Crie o arquivo caso não exista, use `.env.example` como exemplo.
 
 ```
 php artisan storage:link
-php artisan migrate
-php artisan db:seed
+php artisan migrate:fresh --seed
 php artisan test
 npm run dev
 ```
