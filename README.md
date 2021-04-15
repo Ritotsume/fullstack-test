@@ -8,7 +8,7 @@ Abaixo segue uma lista do que foi usado para desenvolver a solução:
 ## No Backend
 - Laravel 8
 - Bootstrap 4
-- SBAdmin 2 (Template)
+- SBAdmin 2
 
 
 ### Motivo pelo qual foram usados tais itens no Backend
